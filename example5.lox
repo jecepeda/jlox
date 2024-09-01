@@ -1,0 +1,13 @@
+class Foo {
+  init() {
+    this.flavor = "Chocolate";
+    this.topping = "Apple";
+  }
+
+  toString(){
+    return "the flavor of Foo is " + this.flavor + " and the topping is " + this.topping;
+  }
+}
+
+var foo = Foo();
+print foo.toString();
